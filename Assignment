@@ -1,0 +1,58 @@
+Program to print passing status of students by using only if-else statements without nesting nor logical operators.
+
+classs Problem{
+     public static void main(String args[]){
+     int Num1 = Integer.parseInt(args[0]);
+     int Num2 = Integer.parseInt(args[1]);
+     int Num3 = Integer.parseInt(args[2]);
+     int Sum = Num1+Num2+Num3;
+     if(Num1<40) System.out.println("Student is fail");
+     if(Num2<40) System.out.println("Student is fail");
+     if(Num3<40) System.out.println("Student is fail");
+     if(Sum<40) System.out.println("Student is fail");
+     }
+     }
+     
+     
+     
+     Factorial From Input Number:
+      
+      class Fact{
+        public static void main(String args[])
+        {
+        int n,c,f=1;
+        
+        System.out.println("Enter an interger to calculate its factorial");
+        Scanner in = new Scanner(System.in);
+        n=in.nextInt();
+        if(n<0)
+         System.out.println("Number should be non-negative");
+            else
+            {
+            for(c=1;c<=n;c++)
+             f=f*c;
+             
+             System.out.println("Fact of "+n" is = "+f);
+             }
+            }
+           }
+           
+           
+           
+           
+       2.Fibonacci Series upto 89
+       
+     class FibonacciExample1{  
+public static void main(String args[])  
+{    
+ int n1=0,n2=1,n3,i,count=89;    
+ System.out.print(n1+" "+n2);   
+    
+ for(i=2;i<count;++i)  
+ {    
+  n3=n1+n2;    
+  System.out.print(" "+n3);    
+  n1=n2;    
+  n2=n3;    
+ }    
+     
